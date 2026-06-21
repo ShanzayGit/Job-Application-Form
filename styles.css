@@ -1,0 +1,76 @@
+body{
+  background-color:#E078562a;
+  font-family:Arial,sans-serif;
+  font-size:1.2rem;
+}
+h1{
+  text-align:center;
+}
+.container{
+  background-color:#E078562a;
+  width:80%;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+  border-radius:20px;
+  border:2px solid #E07856;
+}
+button{
+  background-color:#E07856;
+  width:10em;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  padding:5px;
+  border-radius:10px;
+}
+
+fieldset{
+  border:2px solid #E07856;
+  border-radius:10px;
+  margin:5px;
+}
+input:not(input[type="radio"]){
+  display:block;
+}
+
+input:not(input[type="radio"]),textarea,select{
+  width:95%;
+  margin:10px;
+  padding:6px;
+}
+
+input:focus,textarea:focus{
+ border-color:#E07856 ;
+ box-shadow:0 4px 8px #E07856 ;
+ outline:none;
+}
+
+input:invalid,select:invalid,textarea:invalid{
+  border-color:red;
+}
+
+
+input:valid,select:valid,textarea:valid{
+  border-color:green;
+}
+
+button:hover{
+  background-color:#E078568a;
+}
+
+
+.radio-group input[type="radio"]:checked{
+   border-color: #E078568a;
+   background-color:#E07856;
+   box-shadow:0 4px 8px #E07856 ;
+
+}
+input[type="radio"]:checked + label{
+  color:#E07856;
+}
+input:first-of-type{
+  border-radius:5px;
+}

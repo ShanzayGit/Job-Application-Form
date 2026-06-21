@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Job Application Form</title>
+</head>
+<body>
+   <div class="container">
+    
+    <h1>Job Application Form</h1>
+    <form>
+        <fieldset>
+            <legend >Personal Information </legend>
+            <label for="name">Full Name: <span arai-hidden="true">*</span> 
+            <input type="text" id="name" name="name" placeholder="E.g., John Doe">
+            <label for="email" >Email: <span arai-hidden="true">*</span></label>
+            <input type="email" required id="email" name="email" placeholder="E.g., example@email.com">
+        </fieldset>
+<fieldset>
+    <legend>Job Specification</legend>
+    <label for="position">Job Position: <span arai-hidden="true">*</span></label>
+    <select id="position" name="position">
+        <option value="Assistant-Associate">Assistant Associate</option>
+        <option selected value="manager" >Manager</option>
+        <option value="Assistant-manager">Assistant Manager</option>
+        <option value="front-end-dev">Frontend Developer</option>
+        <option value="back-end-dev">Backend Developer</option>
+        <option value="full-stack-dev">Full Stack Developer</option>
+        <option value="ui-ux">UI/UX</option>
+    </select><br>
+    <label for="experience">Job Experience: </lable>
+ <select id="experience" name="experience">
+        <option value="1-year">1 Year</option>
+        <option selected value="2/3year" >2-3 Years</option>
+        <option value="4/5year">4-5 Years</option>
+        <option value="5+year">5+ Years</option>
+        <option value="no-exp">No Experience</option>
+    </select>
+       </fieldset>
+    <fieldset class="radio-group">
+        <legend>Availability <span arai-hidden="true">*</span></legend>
+        <input required type="radio" name="availability" id="full-time" >
+        <label for="full-time">Full Time</label>
+        <input required type="radio" name="availability" id="part-time" >
+        <label for="part-time">Part Time</label>
+        </fieldset>
+        <fieldset>
+            <legend>Cover Letter</legend>
+            <label for="message">Cover Letter: </label>
+            <textarea id="message" placeholder="Type Here"></textarea>
+        </fieldset>
+        <button type="submit">submit Form</button>
+    </form>
+   </div>
+</body>
+</html>
