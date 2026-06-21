@@ -17,6 +17,7 @@
             <input type="text" id="name" name="name" placeholder="E.g., John Doe">
             <label for="email" >Email: <span arai-hidden="true">*</span></label>
             <input type="email" required id="email" name="email" placeholder="E.g., example@email.com">
+           <label for="age">Age:  <input type="number" min="18" max="60" id="age" name="age"></label>
         </fieldset>
 <fieldset>
     <legend>Job Specification</legend>
@@ -47,9 +48,19 @@
         <label for="part-time">Part Time</label>
         </fieldset>
         <fieldset>
-            <legend>Cover Letter</legend>
+            <label for="resume">Resume:<input type="file" id="resume" name="resume"></label>
             <label for="message">Cover Letter: </label>
             <textarea id="message" placeholder="Type Here"></textarea>
+             <label for="referrer">How did you hear about us?
+        <select id="referrer" name="referrer">
+          <option value="">(select one)</option>
+          <option value="1">Company News</option>
+          <option value="2">LinkedIn</option>
+          <option value="3">Company Forum</option>
+          <option value="4">Other</option>
+        </select>
+      </label>
+     
         </fieldset>
         <button type="submit">submit Form</button>
     </form>
