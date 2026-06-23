@@ -9,6 +9,7 @@ A responsive **Job Application Form** built using **HTML5** and **CSS3**. This p
 * Job Specification section
 * Availability selection using radio buttons
 * Cover Letter textarea
+* Resume upload area
 * Input focus effects with shadow
 * Validation styling for valid and invalid fields
 * Hover effect on submit button
@@ -35,6 +36,7 @@ project-folder/
 
 * Full Name
 * Email Address
+* Age
 
 ### 2. Job Specification
 
@@ -49,6 +51,8 @@ project-folder/
 ### 4. Cover Letter
 
 * Text area for applicant introduction
+* resume area
+* How you heard of us area
 
 ## CSS Styling Highlights
 
@@ -65,21 +69,13 @@ project-folder/
 2. Open the project folder.
 3. Open `index.html` in any browser.
 
-## Improvements You Can Add
+## Improvements
 
 * Add `required` validation to all mandatory fields
 * Connect form with backend
 * Add mobile responsiveness improvements
-* Include resume upload option
 * Add success/error messages
 
-## Known Issues
-
-* `arai-hidden` should be corrected to `aria-hidden`
-* First `<label>` tag is not properly closed
-* `</lable>` should be changed to `</label>`
-* Full Name input is missing `required`
-* Add `name` attributes for radio buttons if submitting data
 
 ## Author
 
