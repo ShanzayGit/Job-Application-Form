@@ -13,7 +13,7 @@
     <form>
         <fieldset>
             <legend >Personal Information </legend>
-            <label for="name">Full Name: <span arai-hidden="true">*</span> 
+            <label required for="name">Full Name: <span aria-hidden="true">*</span> </label>
             <input type="text" id="name" name="name" placeholder="E.g., John Doe">
             <label for="email" >Email: <span arai-hidden="true">*</span></label>
             <input type="email" required id="email" name="email" placeholder="E.g., example@email.com">
@@ -21,7 +21,7 @@
         </fieldset>
 <fieldset>
     <legend>Job Specification</legend>
-    <label for="position">Job Position: <span arai-hidden="true">*</span></label>
+    <label for="position">Job Position: <span aria-hidden="true">*</span></label>
     <select id="position" name="position">
         <option value="Assistant-Associate">Assistant Associate</option>
         <option selected value="manager" >Manager</option>
@@ -41,10 +41,10 @@
     </select>
        </fieldset>
     <fieldset class="radio-group">
-        <legend>Availability <span arai-hidden="true">*</span></legend>
-        <input required type="radio" name="availability" id="full-time" >
+        <legend>Availability <span aria-hidden="true">*</span></legend>
+        <input required type="radio" name="availability" id="full-time" value="full-time" >
         <label for="full-time">Full Time</label>
-        <input required type="radio" name="availability" id="part-time" >
+        <input required type="radio" name="availability" id="part-time" value="part-time">
         <label for="part-time">Part Time</label>
         </fieldset>
         <fieldset>
