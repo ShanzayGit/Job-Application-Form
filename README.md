@@ -1,82 +1,87 @@
 # Job Application Form
 
-A responsive **Job Application Form** built using **HTML5** and **CSS3**. This project collects applicant details including personal information, job preferences, availability, and a cover letter.
+## Overview
+
+A responsive **Job Application Form** built using **HTML5 and CSS3**. This project demonstrates form design, validation states, responsive layout, custom styling, and user-friendly interaction effects.
 
 ## Features
 
-* Responsive form layout
-* Personal Information section
-* Job Specification section
-* Availability selection using radio buttons
-* Cover Letter textarea
-* Resume upload area
-* Input focus effects with shadow
-* Validation styling for valid and invalid fields
+* Responsive layout for desktop and mobile screens
+* Styled form container with soft theme colors
+* Input focus effects using shadow and border highlights
+* HTML form validation support
+* Custom radio button selection styling
+* File upload field for resume submission
+* Dropdown menus for position and experience selection
+* Cover letter text area
 * Hover effect on submit button
-* Clean UI with rounded borders and soft color palette
 
 ## Technologies Used
 
 * HTML5
 * CSS3
-
-## Project Structure
-
-```
-project-folder/
-│
-├── index.html
-├── styles.css
-└── README.md
-```
+* Media Queries
+* Form Validation Pseudo-classes (`:valid`, `:invalid`, `:focus`)
 
 ## Form Sections
 
-### 1. Personal Information
+### Personal Information
 
 * Full Name
-* Email Address
+* Email
 * Age
 
-### 2. Job Specification
+### Job Specification
 
-* Job Position dropdown
-* Experience selection
+* Job Position
+* Job Experience
 
-### 3. Availability
+### Availability
 
-* Full-time option
-* Part-time option
+* Full Time
+* Part Time
 
-### 4. Cover Letter
+### Additional Information
 
-* Text area for applicant introduction
-* resume area
-* How you heard of us area
+* Resume Upload
+* Cover Letter
+* Referral Source
 
-## CSS Styling Highlights
+## Responsive Design
 
-* Custom container layout
-* Fieldset grouping
-* Input validation states
-* Focus effects using box-shadow
-* Hover animation for button
-* Responsive width controls
+The form adapts to different screen sizes:
 
-## How to Run
+* **Mobile:** Width 95%
+* **Tablet/Desktop (768px+):** Width 80% with max-width of 600px
 
-1. Download or clone the project.
-2. Open the project folder.
-3. Open `index.html` in any browser.
+## Styling Highlights
 
-## Improvements
+* Warm accent color palette using `#E07856`
+* Rounded borders and clean spacing
+* Interactive validation feedback:
 
-* Add `required` validation to all mandatory fields
-* Connect form with backend
-* Add mobile responsiveness improvements
-* Add success/error messages
+  * Green border → Valid input
+  * Red border → Invalid input
+* Smooth hover and focus effects
 
+## Learning Outcomes
+
+This project helped practice:
+
+* Semantic HTML structure
+* CSS selectors and pseudo-classes
+* Form accessibility basics
+* Responsive web design principles
+* User interface styling
+
+## Future Improvements
+
+* Add JavaScript form validation
+* Improve accessibility labels
+* Add form submission functionality
+* Customize file upload appearance
+* Add success/error messages after submission
 
 ## Author
 
-Created as a practice project for learning HTML and CSS form design.
+Created as a frontend practice project using HTML and CSS.
